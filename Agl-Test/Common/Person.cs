@@ -18,7 +18,7 @@ namespace Agl.Common
 
         public int Age { get; set; }
 
-        public IList<Pet> Pets { get; set; }
+        public List<Pet> Pets { get; set; }
 
         public Person()
         {
